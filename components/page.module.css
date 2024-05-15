@@ -73,7 +73,7 @@
 .image1{
     width: 70%;
     opacity: 0;
-    margin-left: -70%;
+    margin-left: -20%;
     animation: slideLeft 1s ease forwards;
     animation-delay: calc(0.3s * var(--i));
 }
@@ -106,9 +106,9 @@
     font-family:'Poppins';
     font-size: 440%;
     font-weight: 700;
-    width: 58%;
+    width: 88%;
     border-radius:10px;
-    padding: 1% 1.5%;
+    padding: 1% 2%;
     background-color: #FE495F;
     color: white;
     text-shadow: 7px 5px rgb(63, 62, 62);
@@ -127,7 +127,7 @@
     opacity: 0;
     animation: slideLeft 1s ease forwards;
     animation-delay: calc(0.3s * var(--i));
-    width: 55%;
+    width: 95%;
 }
 .cont1{
     margin-left: 15%;

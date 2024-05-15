@@ -12,7 +12,7 @@ function Home() {
             <h2 style={{ "--i": 2 }}>Welcome to </h2>
             <h1 style={{ "--i": 3 }}>1ly Coffee</h1>
             <p style={{ "--i": 4 }}>
-              Founder of Caliber Tech, freelancing fullstack developer in MERN stack, frontend developer in NEXT JS and also a videographer
+                Sip. Savour and Repeat every single brew you make using our Coffee
             </p>
           </div>
         </div>

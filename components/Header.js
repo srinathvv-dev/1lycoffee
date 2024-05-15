@@ -126,17 +126,15 @@ export default function Header() {
       <Center>
         <Nav>
           <NavBar>
-            <Logo>Portfolio</Logo>
+            <Logo>1lycoffee</Logo>
             <NavIcon onClick={() => setMobileNavActive((prev) => !prev)}>
               <BarsIcon />
             </NavIcon>
             <StyledNav mobileNavActive={mobileNavActive}>
               <NavLinksContainer>
                 <NavLink href="/">Home</NavLink>
-                <NavLink href="/about">About</NavLink>
-                <NavLink href="/works">Works</NavLink>
-                <NavLink href="/services">Services</NavLink>
-                <NavLink href="/contact">Contact</NavLink>
+                <NavLink href="/products">Products</NavLink>
+                <NavLink href="/cart">Cart</NavLink>
               </NavLinksContainer>
             </StyledNav>
           </NavBar>

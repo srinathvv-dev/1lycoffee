@@ -4,15 +4,23 @@ import ProductsGrid from "@/components/ProductsGrid";
 
 const Title = styled.h2`
   font-size: 2rem;
-  margin:30px 0 20px;
+  margin: 30px 0 20px;
   font-weight: normal;
 `;
 
-export default function NewProducts({products}) {
+const Container = styled.div`
+  margin-top: 10%;
+  padding-bottom: 80px;
+  margin-left:15%;
+`;
+
+export default function NewProducts({ products }) {
   return (
-    <Center>
-      <Title>New Arrivals</Title>
-      <ProductsGrid products={products} />
-    </Center>
+    <Container>
+      <Center>
+        <Title>New Arrivals</Title>
+        <ProductsGrid products={products} />
+      </Center>
+    </Container>
   );
 }
